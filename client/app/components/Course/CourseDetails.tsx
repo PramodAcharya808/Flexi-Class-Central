@@ -46,8 +46,8 @@ const CourseDetails = ({
 
   const handleOrder = (e: any) => {
     if (user) {
-      setOpen(false);
-      // setOpen(true);
+      // setOpen(false);
+      setOpen(true);
     } else {
       setRoute("Login");
       openAuthModal(true);
@@ -246,11 +246,11 @@ const CourseDetails = ({
                     className={`${styles.button} !w-[245px] my-3 font-Poppins cursor-pointer !bg-[crimson]`}
                     onClick={handleOrder}
                   >
-                    Contact Us
+                    Buy Now @{discountPercentengePrice}% Off
                   </div>
                 )}
               </div>
-                <p className="pb-1 text-black dark:text-white">Sales executive will get in touch asap !</p>
+              <p className="pb-1 text-black dark:text-white">Sales executive will get in touch asap !</p>
               <br />
               <p className="pb-1 text-black dark:text-white">
                 • Source code included
@@ -276,7 +276,7 @@ const CourseDetails = ({
                 <IoCloseOutline
                   size={40}
                   className="text-black cursor-pointer"
-                  onClick={() => setOpen(false)}
+                  onClick={() => setOpen(true)}
                 />
               </div>
               <div className="w-full">
