@@ -9,7 +9,8 @@ type Props = {
 const CoursePlayer: FC<Props> = ({ videoUrl }) => {
   const [videoData, setVideoData] = useState({
     otp: "",
-    playbackInfo: "",   });
+    playbackInfo: "",
+  });
 
   useEffect(() => {
     axios
@@ -22,10 +23,10 @@ const CoursePlayer: FC<Props> = ({ videoUrl }) => {
   }, [videoUrl]);
 
   return (
-    <div style={{position:"relative",paddingTop:"56.25%",overflow:"hidden"}}>
+    <div style={{ position: "relative", paddingTop: "56.25%", overflow: "hidden" }}>
       {videoData.otp && videoData.playbackInfo !== "" && (
         <iframe
-          src={`https://player.vdocipher.com/v2/?otp=${videoData?.otp}&playbackInfo=${videoData.playbackInfo}&player=JrlKkxhZZln8rYAk`}
+          src={`https://player.vdocipher.com/v2/?otp=${videoData?.otp}&playbackInfo=${videoData.playbackInfo}&player=31C4NEUXKEEf1Bhq`}
           style={{
             position: "absolute",
             top: 0,
