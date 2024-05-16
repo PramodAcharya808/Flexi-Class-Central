@@ -10,7 +10,7 @@ import orderRouter from "./routes/order.route";
 import notificationRouter from "./routes/notification.route";
 import analyticsRouter from "./routes/analytics.route";
 import layoutRouter from "./routes/layout.route";
-import { rateLimit } from 'express-rate-limit'
+import { rateLimit } from "express-rate-limit";
 
 // body parser
 app.use(express.json({ limit: "50mb" }));
@@ -23,20 +23,18 @@ app.use(
   cors({
     // origin: process.env.ORIGIN,
     // origin: `[${process.env.ORIGIN}]`,
-    // origin: ['http://localhost:3000'],
-    origin: ["https://www.vishwacloudlab.com"],
-    // origin: ["https://vcl-test-client.vercel.app"],
+    origin: ["http://localhost:3000"],
     credentials: true,
   })
 );
 
 // api requests limit
 const limiter = rateLimit({
-	windowMs: 15 * 60 * 1000,
-	max: 100, 
-	standardHeaders: 'draft-7', 
-	legacyHeaders: false, 
-})
+  windowMs: 15 * 60 * 1000,
+  max: 100,
+  standardHeaders: "draft-7",
+  legacyHeaders: false,
+});
 
 // routes
 app.use(
