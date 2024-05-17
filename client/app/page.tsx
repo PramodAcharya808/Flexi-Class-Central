@@ -19,11 +19,11 @@ const Page: FC<Props> = (props) => {
     <div>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Vishwa Cloud Lab" />
-        <meta name="keywords" content="Programming, Cloud Computing, cloud computing, security, vcl, vishwa cloud lab, vishwacloudlab, VCL, AWS, AZURE, github, cloud computing" />
+        <meta name="description" content="Flexi Class" />
+        <meta name="keywords" content="Programming, Cloud Computing, cloud computing, security, FC, flexi class, flexiclass, fc, AWS, AZURE, github, cloud computing" />
 
-        <meta property="og:title" content="Vishwa Cloud Lab" />
-        <meta property="og:description" content="Empowering Minds, Transforming Futures" />
+        <meta property="og:title" content="Flexi Class" />
+        <meta property="og:description" content="Redefine Education" />
         <meta property="og:image" content="/client/app/favicon.ico" />
         <meta name="twitter:card" content="summary_large_image" />
       </head>
