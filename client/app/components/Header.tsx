@@ -93,11 +93,12 @@ const Header: FC<Props> = ({ activeItem, setOpen, route, open, setRoute }) => {
               <div className="w-[95%] 800px:w-[92%] m-auto py-2 h-full">
                 <div className="w-full h-[80px] flex items-center justify-between p-3">
                   <div>
-                    <Link
-                      href={"/"}
-                      className={`text-[25px] font-Poppins font-[500] text-black dark:text-white`}
-                    >
-                      Vishwa Cloud Lab
+                  
+                    <Link 
+                      href={"/"} 
+                      className={`text-[25px] font-Poppins font-[500] text-black dark:text-white flex gap-2 items-center`}
+                    ><img src="https://i.ibb.co/HGdKTZG/Flexi-Class-Logo.png" alt="Flexi-Class-Logo" className=" w-10 animate-rotate"/>
+                      Flexi Class
                     </Link>
                   </div>
                   <div className="flex items-center">
@@ -163,7 +164,7 @@ const Header: FC<Props> = ({ activeItem, setOpen, route, open, setRoute }) => {
                     <br />
                     <br />
                     <p className="text-[16px] px-2 pl-5 text-black dark:text-white">
-                      Copyright © 2024 Vishwa Cloud Lab
+                      Copyright © 2024 Flexi Class
                     </p>
                   </div>
                 </div>

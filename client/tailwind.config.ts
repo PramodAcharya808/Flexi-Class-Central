@@ -26,7 +26,16 @@ const config: Config = {
         "1500px": "1500px",
         "800px": "800px",
         "400px": "400px",
-      }
+      },
+      keyframes: {
+        rotate: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
+      animation: {
+        rotate: 'rotate 2s linear infinite',
+      },
     },
   },
   plugins: [],
