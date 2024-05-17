@@ -73,7 +73,7 @@ const Footer = (props: Props) => {
             <ul className="space-y-4">
               <li>
                 <Link
-                  href="https://www.youtube.com/@vishwacloudlab"
+                  href="/"
                   className="text-base text-black dark:text-gray-300 dark:hover:text-white"
                   target="_blank"
                 >
@@ -82,7 +82,7 @@ const Footer = (props: Props) => {
               </li>
               <li>
                 <Link
-                  href="https://www.instagram.com/"
+                  href="/"
                   className="text-base text-black dark:text-gray-300 dark:hover:text-white"
                   target="_blank"
                 >
@@ -91,7 +91,7 @@ const Footer = (props: Props) => {
               </li>
               <li>
                 <Link
-                  href="https://github.com/Vishwacloudlabs"
+                  href="https://github.com/Flexi-Corp"
                   className="text-base text-black dark:text-gray-300 dark:hover:text-white"
                   target="_blank"
                 >
@@ -123,7 +123,7 @@ const Footer = (props: Props) => {
               </li>
               <li>
                 <Link
-                  href="https://github.com/Vishwacloudlabs"
+                  href="https://github.com/Flexi-Corp"
                   className="text-base text-black dark:text-gray-300 dark:hover:text-white"
                   target="_blank"
                 >
@@ -135,22 +135,22 @@ const Footer = (props: Props) => {
           <div>
             <h3 className="text-[20px] font-[600] text-black dark:text-white pb-3">Contact Info</h3>
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
-              Call Us: 799-699-5959 | 799-699-7995
+              Call Us: 9523713456 | 8317325870
             </p>
 
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2 pt-2">
-              Address: 3rd Floor, Krishna towers (behind Vijaya bank), Opp to Patanjali Shop, Marathahalli service Road, Marathahalli - 560037
+              Address: Level 1, Explorer Building International Tech Park, Whitefield Main Rd, Bengaluru, Karnataka 560066
             </p>
 
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white  pb-2 pt-2">
-              Mail Us: info@vishwacloudlab.com
+              Mail Us: flexiclass.connect@gmail.com
             </p>
 
           </div>
         </div>
         <br />
         <p className="text-center text-black dark:text-white">
-          Copyright © 2024 Vishwa Cloud Lab | All Rights Reserved
+          Copyright © 2024 Flexi Class | All Rights Reserved
         </p>
       </div>
       <br />
