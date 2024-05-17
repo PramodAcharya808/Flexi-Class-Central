@@ -15,8 +15,8 @@ const Page = (props: Props) => {
   return (
     <div className="min-h-screen">
       <Heading
-        title="FAQ - VCL"
-        description="VCL is a learning management system for helping programmers."
+        title="FAQ - Flexi Class"
+        description="Flexi Class is a learning management system for helping programmers and all the learners."
         keywords="programming,mern"
       />
       <Header
