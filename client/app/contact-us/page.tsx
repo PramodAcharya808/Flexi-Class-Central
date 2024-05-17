@@ -15,8 +15,8 @@ const Page = (props: Props) => {
   return (
     <div>
       <Heading
-        title="Contact - VCL"
-        description="VCL is a learning management system for helping programmers."
+        title="Contact - Flexi Class"
+        description="Flexi Class is a learning management system for helping programmers and all the learners."
         keywords="programming,mern,cloud computing"
       />
       <Header
