@@ -21,7 +21,7 @@ const schema = Yup.object().shape({
   email: Yup.string()
     .email("Invalid email!")
     .required("Please enter your email!"),
-  phone: Yup.string().required("Please enter your phone number !").min(10),
+  phone: Yup.string().required("Please enter your phone number !").min(10).max(10),
   password: Yup.string().required("Please enter your password!").min(6),
 });
 
@@ -59,7 +59,7 @@ const Signup: FC<Props> = ({ setRoute }) => {
 
   return (
     <div className="w-full">
-      <h1 className={`${styles.title}`}>Join to VCL</h1>
+      <h1 className={`${styles.title}`}>Join to Flexi Class</h1>
       <form onSubmit={handleSubmit}>
 
         <div className="mb-3">
@@ -72,7 +72,7 @@ const Signup: FC<Props> = ({ setRoute }) => {
             value={values.name}
             onChange={handleChange}
             id="name"
-            placeholder="vishwa"
+            placeholder="flexi"
             className={`${errors.name && touched.name && "border-red-500"} ${styles.input
               }`}
           />
@@ -108,7 +108,7 @@ const Signup: FC<Props> = ({ setRoute }) => {
             value={values.phone}
             onChange={handleChange}
             id="phone"
-            placeholder="9876543210"
+            placeholder="9999-999-999"
             className={`${errors.phone && touched.phone && "border-red-500"} ${styles.input
               }`}
           />
