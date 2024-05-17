@@ -17,7 +17,9 @@ const About = () => {
           technology to offer a seamless and enriching educational experience.
           <br />
           <br />
-          <h4 className="text-xl text-gradient font-bold">Why Choose FlexiClass</h4>
+          <h4 className="text-xl text-gradient font-bold">
+            Why Choose FlexiClass
+          </h4>
           <p>
             Innovative Technology: We leverage the latest technologies to
             deliver a seamless learning experience. Customizable Solutions:
@@ -56,14 +58,38 @@ const About = () => {
           <br />
           <br />
           <h4 className="text-xl text-gradient font-bold">Get Started Today</h4>
-          <p>Discover the power of FlexiClass and unlock a world of possibilities in online education. Sign up now and experience the future of learning firsthand.</p>
+          <p>
+            Discover the power of FlexiClass and unlock a world of possibilities
+            in online education. Sign up now and experience the future of
+            learning firsthand.
+          </p>
         </p>
         <br />
-        <span className="text-[22px]">---------------------------------------------------------------------------------------------------------------------------------------------------</span>
+        <span className="text-[22px]">
+          ---------------------------------------------------------------------------------------------------------------------------------------------------
+        </span>
         <br />
         <br />
         <h5 className="text-[18px] font-Poppins">
-          <span className="font-semibold">Founders: </span> <span className="text-gradient font-bold">Pramod Acharya </span> <span className="font-bold text-xl">& </span> <span className="text-gradient font-bold">Charu P. Sharma</span>
+      
+          <span className="font-semibold">Founders: </span>
+          <a
+            href="https://www.linkedin.com/in/pramodacharya/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gradient font-bold hover:text-blue-500 hover:underline"
+          >
+            Pramod Acharya
+          </a>
+          <span className="font-bold text-xl"> & </span>
+          <a
+            href="https://www.linkedin.com/in/charu-pankaj-sharma/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gradient font-bold hover:text-blue-500 hover:underline"
+          >
+           Charu P. Sharma
+          </a>
         </h5>
         <br />
         <br />
