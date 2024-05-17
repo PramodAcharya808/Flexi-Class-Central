@@ -51,9 +51,9 @@ const CourseDetailsPage = ({ id }: Props) => {
       ) : (
         <div>
           <Heading
-            title={data.course.name + " - Vishwa Cloud Lab"}
+            title={data.course.name + " - Flexi Class"}
             description={
-              "Vishwa Cloud Lab is a platform where you can get hold of the latest cutting edge cloud technologies"
+              "Flexi Class is a platform where you can get online classes from industry expert trainers"
             }
             keywords={data?.course?.tags}
           />
