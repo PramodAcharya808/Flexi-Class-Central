@@ -12,7 +12,7 @@ const About = () => {
       <br />
       <div className="w-[95%] 800px:w-[85%] m-auto">
         <p className="text-[18px] font-Poppins">
-          At FlexiClass, we're revolutionizing the way people learn online. Our
+          At FlexiClass, we re revolutionizing the way people learn online. Our
           innovative Learning Management System (LMS) embraces cutting-edge
           technology to offer a seamless and enriching educational experience.
           <br />
@@ -26,12 +26,12 @@ const About = () => {
             FlexiClass is designed to adapt to the unique needs of each
             educational environment. Security and Reliability: Your data and
             transactions are secured with industry-leading practices. Continuous
-            Improvement: We're constantly evolving and enhancing FlexiClass to
+            Improvement: We re constantly evolving and enhancing FlexiClass to
             stay ahead of the curve. Join Us on the Learning Journey
           </p>
           <br />
           <p>
-            Whether you're a learner eager to explore new horizons or an
+            Whether you re a learner eager to explore new horizons or an
             institution seeking to transform your training programs, FlexiClass
             welcomes you to join us on this exciting learning journey.
           </p>
@@ -43,7 +43,7 @@ const About = () => {
           <br />
           <br />
           <h4 className="text-xl text-gradient font-bold">Who We Are</h4>
-          FlexiClass is more than just a platform; we're a team of dedicated
+          FlexiClass is more than just a platform; we re a team of dedicated
           professionals committed to shaping the future of online education.
           With expertise in software development, user experience design, and
           educational technology, we strive to create a platform that meets the
