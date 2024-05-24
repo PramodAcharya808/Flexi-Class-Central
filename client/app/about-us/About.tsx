@@ -71,7 +71,7 @@ const About = () => {
         <br />
         <br />
         <h5 className="text-[18px] font-Poppins">
-      
+
           <span className="font-semibold">Founders: </span>
           <a
             href="https://www.linkedin.com/in/pramodacharya/"
@@ -88,7 +88,7 @@ const About = () => {
             rel="noopener noreferrer"
             className="text-gradient font-bold hover:text-blue-500 hover:underline"
           >
-           Charu P. Sharma
+            Charu P. Sharma
           </a>
         </h5>
         <br />
