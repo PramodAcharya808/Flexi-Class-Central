@@ -23,7 +23,8 @@ app.use(
   cors({
     // origin: process.env.ORIGIN,
     // origin: `[${process.env.ORIGIN}]`,
-    origin: ["http://localhost:3000"],
+    // origin: ["http://localhost:3000"],
+    origin: ["https://flexi-class-client.vercel.app"],
     credentials: true,
   })
 );
